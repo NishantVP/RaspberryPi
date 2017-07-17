@@ -27,7 +27,7 @@ Offending ECDSA key in /Users/nishant/.ssh/known_hosts:5
 ECDSA host key for 10.0.0.210 has changed and you have requested strict checking.
 Host key verification failed.
 Nishants-MacBook-Pro:~ nishant$ ssh-keygen -R 10.0.0.210
-# Host 10.0.0.210 found: line 5
+#Host 10.0.0.210 found: line 5
 /Users/nishant/.ssh/known_hosts updated.
 Original contents retained as /Users/nishant/.ssh/known_hosts.old
 

@@ -33,3 +33,24 @@ Original contents retained as /Users/nishant/.ssh/known_hosts.old
 
 Then run following command on your mac. This message will go away.
 ssh-keygen -R <10.0.0.210>   <raspi ip>
+
+
+
+Setup for RFID Reader - 
+
+Assumes that you have installed the Raspbian OS already.
+
+1. Run the command sudo raspi-config and enter the config
+2. Go to Interfacing Options
+3. Enable SPI
+4. Restart Board
+5. sudo apt-get update
+6. sudo apt-get install python2.7-dev
+7. git clone https://github.com/lthiery/SPI-Py.git
+8. cd SPI-Py
+9. sudo python setup.py install
+10 cd ~
+11. git clone https://github.com/mxgxw/MFRC522-python.git 
+12. cd MFRC522-python 
+13. sudo python Read.py
+
